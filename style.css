@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+   background-color: aqua;
+height: 100vh;
+   font-family: 'Red Hat Display', sans-serif;
+}
+.card
+{
+    background-color: white;
+   width: 24rem;
+   border-radius: 15px;
+   text-align: center;
+
+}
+.discription-card{
+   width: 80%;
+   margin-left: 8%;
+   height: 2;
+   font-size: 16px;
+}
+.discription-card>p{
+    color:hsl(224, 23%, 55%);
+    margin:20px 0;
+}
+.img-hero{
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+    margin-bottom: 20px;
+
+}
+.deux{
+    display: block;
+    
+}
+.annual-plan{
+   
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+
+}
+.change{
+    margin-left: 50px;
+}
+.change:hover{
+    color:hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+h2{
+    font-weight: 900;
+    
+}
+
+p{
+    font-weight: 500;
+}
+button{
+    display: block;
+    text-align: center;
+    
+    
+}
+.folder{
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.btn-payment {
+    background-color:hsl(245, 75%, 52%);
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn-cancel{
+    width: 100%;
+    border: none;
+padding: 10px 0;
+background-color: white;
+
+}
+.folder a{
+    text-decoration: none;
+}
+.btn-payment a{
+    color: white;
+    font-weight: 700;
+}
+.btn-payment:hover{
+    background-color:hsl(224, 23%, 55%) ;
+}
+.btn-cancel a{
+    /* color:hsl(224, 23%, 55%); */
+    color:hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+.btn-cancel:hover a{
+    color: black;
+}
